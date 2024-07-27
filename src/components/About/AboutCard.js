@@ -1,36 +1,32 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sunil Yadav </span>
-            from <span className="purple"> Lucknow, India.</span>
+            I am <span className="purple">Flora Dedvukaj </span>
+            from <span className="purple"> New Jersey.</span>
             <br />
-            Software Engineer who loves to transform ideas into reality using
-            code.
+            A natural born problem solver.
             <br />
-            Motivated designer and developer with experience creating
-            custom websites with ReactJs, JavaScript, HTML5, CSS3. Shopify app using ReactJs, Javascript, Polaris, Graphql, nodejs, Koajs
-            and Mobile App using React-native.
+            I am a motivated Computer Science and Mathematics student with dreams to become a Software/AI Engineer.
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do include:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              Yoga
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              Poetry
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              Baking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              Watching Movies (Good Will Hunting is my favorite.)
             </li>
           </ul>
         </blockquote>

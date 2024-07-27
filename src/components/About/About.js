@@ -2,8 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import developer from "../../Assets/developer.jpg";
 import { SKILLS, TOOLS } from "../../Constants";
+import csImg from "../../Assets/cs.png";
+
 
 function About() {
   return (
@@ -24,7 +25,7 @@ function About() {
             <Aboutcard />
           </Col>
           <Col md={5} style={{ paddingBottom: "50px" }} className="about-img">
-            <img src={developer} alt="about" className="image-style" />
+            <img src={csImg} alt="about" className="image-style" />
           </Col>
         </Row>
         <Row className="skill-tools-wrapper">

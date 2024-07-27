@@ -12,39 +12,42 @@ html {
 /* --------- */
 #preloader {
   position: fixed;
-  top: 30%;
-  left: 40%;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #ffffff;
+  background-color: #ffafbd;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
-    #preloader {
-      position: fixed;
-      top: 30%;
-      left: 20%;
-      width: 100%;
-      height: 100%;
-      z-index: 999999;
-      background-color: #ffffff;
-      background-repeat: no-repeat;
-      background-position: center;
+  #preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #ffc1a1;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 #preloader-none {
-  opacity: 0;
+  display: none;
 }
 
 #no-scroll {
   overflow: hidden;
   height: 100vh;
 }
-
 /* --------- */
 /*Scrollbar   */
 /* --------- */
@@ -53,28 +56,12 @@ html {
   width: 7px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #2d1950;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
-  border-radius: 12px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
-  border-radius: 12px;
-}
 
 /* --------- */
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #212038d8 !important;
+  background-color: #fcafad !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -85,7 +72,7 @@ html {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
-  background-color: #343e47;
+  background-color: #FAA0A0;
 }
 
 .navbar-toggler {
@@ -151,7 +138,7 @@ html {
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: #8c5959 !important;
 }
 
 .logo {
@@ -160,7 +147,7 @@ html {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: #8c5959 !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -256,6 +243,7 @@ html {
 
 .home-section {
   position: relative;
+  background-color: #FAA0A0;
   z-index: -1;
   background-position: top center;
   background-repeat: no-repeat;
@@ -265,7 +253,7 @@ html {
 
 .home-content {
   padding: 3rem 0 0rem !important;
-  color: #414141;
+  color: #8c5959;
   text-align: left;
 }
 
@@ -293,12 +281,12 @@ html {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #414141 !important;
+  color: #8c5959 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #414141 !important;
+  color: #8c5959 !important;
 }
 
 @media (max-width: 767px) {
@@ -315,6 +303,9 @@ html {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+  position: relative;
+  overflow: hidden;
+  object-fit:initial;
 }
 
 @media (max-width: 767px) {
@@ -327,10 +318,11 @@ html {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
+  background-color: #FAA0A0;
 }
 
 .home-about-description {
-  color: #414141 !important;
+  color: #8c5959 !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -340,12 +332,14 @@ html {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+  background-color: FAA0A0;
 }
+
 
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: #414141 !important;
+  color: #8c5959 !important;
 }
 
 .home-about-social-links {
@@ -364,10 +358,10 @@ html {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: #343e47 !important;
+  background: #704848 !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
-  border: 1px solid #343e47;
+  border: 1px solid #704848;
 }
 
 .home-social-icons::before {
@@ -413,7 +407,7 @@ html {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #343e47;
+  background-color: #fcafad;
   bottom: 0 !important;
 }
 .footer-copywright {
@@ -437,7 +431,7 @@ html {
 
 .footer h3 {
   font-size: 1em;
-  color: white !important;
+  color: #8c5959 !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
@@ -459,6 +453,7 @@ html {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  background-color: #fbc1b9;
 }
 
 .project-card {
@@ -557,8 +552,7 @@ html {
   position: relative !important;
   padding-top: 100px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: #414141 !important;
+  background-color: #FAA0A0;
 }
 
 .tech-icons {

@@ -6,8 +6,8 @@ function Preloader(props) {
   return (
     <div id={props.load ? "preloader" : "preloader-none"}>
       <Loader
-        type="Plane"
-        color="#343e47"
+        type="Hearts"
+        color="#ffbbab"
         height={100}
         width={100}
       />
