@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useStatem} from "react";
+import { useEffect } from "react";
+import { useRef } from "react";
+
+
 import { Container, Row, Col } from "react-bootstrap";
 import laptopIMG from "../../Assets/laptop.pn.png"
 import SocialMedia from "../SocialMedia";
