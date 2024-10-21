@@ -3,18 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ExperienceCards";
 import { PROJECTS } from "../../Constants";
 
-import { MutableRefObject, useEffect, useRef, useState} from "react";
-import {
-  Branch,
-  BranchNode,
-  CheckpointNode,
-  ItemSize,
-  MENULINKS,
-  NodeTypes,
-  TIMELINE,
-  TimelineNodeV2
-}
-
 function Experience() {
   return (
     <Container fluid className="project-section">
