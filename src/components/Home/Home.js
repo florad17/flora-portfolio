@@ -24,7 +24,8 @@ function Home() {
               </h1>
               <h1 className="heading-name">
                 I'm
-                <strong className="main-name"> Flora D.</strong>
+                <strong className="main-name"> Flora</strong>
+                !
               </h1>
 
               <p className="heading-description blockquote">
@@ -51,7 +52,7 @@ function Home() {
               <p>
                 <strong>Feel free to connect with me</strong>
               </p>
-                I am open to anything, whether it is a collaboration or a chat!
+                I am open to anything, whether it is a collaboration or just a chat!
                 <br />
               <SocialMedia />
             </Col>

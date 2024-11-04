@@ -462,6 +462,7 @@ html {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  color: #FAA0A0;
 }
 
 .project-card-view {
@@ -476,6 +477,7 @@ html {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px #343e47 !important;
+  background-color: #FAA0A0;
 }
 
 .blog-card {

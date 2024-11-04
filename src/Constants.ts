@@ -23,6 +23,7 @@ export const PROJECTS = [
     name: "Fordham University Mathematics Department",
     technologyUsed: "Summer Research Assistant | Summer 2023",
     description: "I authored and presented research findings on space-filling curves at various conferences, including JMM 2024. I constructed specific examples of algebraic space-filling curves in three-dimensional projective space, focusing on those with the smallest possible degree. Additionally, I developed new geometrical constructs in three-dimensional projective spaces using Macaulay2 and Python, employing the NumPy and SciPy libraries to perform advanced algebraic computations.",
+    url: "https://arxiv.org/abs/2310.09293v1"
   },
   {
     image: fordhamImg,
