@@ -9,9 +9,16 @@ import TECHSPEC from "./Assets/Projects/techspec.png";
 import TRAVELWELL from "./Assets/Projects/travelwell.png";
 import burtImg from "./Assets/burt_intelligence_logo.jpeg"
 import fordhamImg from "./Assets/logo_square_Fordham_Logo__1_.png";
+import joltImg from "./Assets/joltspacefilms_logo.jpeg"
 
 
 export const PROJECTS = [
+  {
+    image: joltImg,
+    name: "JOLT",
+    technologyUsed: "Data Analyst Intern | Spring 2025",
+    description: "I designed anomaly detection algorithms in Python to tackle data discrepancies and used statistical methods to ensure accuracy. Through exploratory data analysis and feature engineering, I helped enrich audience datasets, uncovering valuable insights that improved marketing efficiency by 15%. I also led A/B tests on pricing and promotional strategies, which ultimately resulted in a 25% increase in ticket sales."
+  },
   {
     image: burtImg,
     name: "Burt Intelligence.",
