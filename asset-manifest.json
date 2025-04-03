@@ -6,12 +6,12 @@
     "runtime-main.js": "/flora-portfolio/static/js/runtime-main.3bdbfc40.js",
     "runtime-main.js.map": "/flora-portfolio/static/js/runtime-main.3bdbfc40.js.map",
     "static/css/2.99fdc27e.chunk.css": "/flora-portfolio/static/css/2.99fdc27e.chunk.css",
-    "static/js/2.98eec990.chunk.js": "/flora-portfolio/static/js/2.98eec990.chunk.js",
-    "static/js/2.98eec990.chunk.js.map": "/flora-portfolio/static/js/2.98eec990.chunk.js.map",
+    "static/js/2.204cad74.chunk.js": "/flora-portfolio/static/js/2.204cad74.chunk.js",
+    "static/js/2.204cad74.chunk.js.map": "/flora-portfolio/static/js/2.204cad74.chunk.js.map",
     "index.html": "/flora-portfolio/index.html",
     "static/css/2.99fdc27e.chunk.css.map": "/flora-portfolio/static/css/2.99fdc27e.chunk.css.map",
     "static/css/main.c4762fe5.chunk.css.map": "/flora-portfolio/static/css/main.c4762fe5.chunk.css.map",
-    "static/js/2.98eec990.chunk.js.LICENSE.txt": "/flora-portfolio/static/js/2.98eec990.chunk.js.LICENSE.txt",
+    "static/js/2.204cad74.chunk.js.LICENSE.txt": "/flora-portfolio/static/js/2.204cad74.chunk.js.LICENSE.txt",
     "static/media/DedvukajFloraResume1031.29645cb5.pdf": "/flora-portfolio/static/media/DedvukajFloraResume1031.29645cb5.pdf",
     "static/media/cs.96786a04.png": "/flora-portfolio/static/media/cs.96786a04.png",
     "static/media/laptop.pn.92f75eb1.png": "/flora-portfolio/static/media/laptop.pn.92f75eb1.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.3bdbfc40.js",
     "static/css/2.99fdc27e.chunk.css",
-    "static/js/2.98eec990.chunk.js",
+    "static/js/2.204cad74.chunk.js",
     "static/css/main.c4762fe5.chunk.css",
     "static/js/main.53e55308.chunk.js"
   ]
